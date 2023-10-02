@@ -21,7 +21,7 @@ const Home = () => {
               </h1>
 
               <h1 className="heading-name">
-                I'M
+                I'M 
                 <strong className="main-name"> Abdelali Benajaji</strong>
               </h1>
 

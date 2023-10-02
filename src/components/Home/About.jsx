@@ -20,11 +20,11 @@ const About = () => {
                   LET ME <span className="yellow"> INTRODUCE </span> MYSELF
                 </h1>
                 <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Abdelali Benajaji </span>
+                 Hi, my name is <h1 className="yellow">Abdelali Benajaji </h1>
                  and I'm from <span className="yellow"> Rabat, Morocco.</span>
                 <br />
                 <br />
-                I recently graduated with a Associate's degree in Computer Science in 2023.
+                Graduated with a Spicialized Technical degree in Computer Science in Full stack Web Development.
                 <br />
                 <br />
                   As a
@@ -33,8 +33,8 @@ const About = () => {
                   <br />
                   <br />I am proficient in
                     <b className="yellow"> Javascript </b>
-                    as well as have knowledge in programming languages such as , PHP, Python,
-                  <b className="yellow"> Sql, </b>
+                    as well as have knowledge in programming languages such as , PHP, PYTHON,
+                  <b className="yellow"> SQL, </b>
                   <br />
                   <br />
                   I have a passion for working
@@ -76,7 +76,7 @@ const About = () => {
                 <ul className="home-about-social-links">
                   <li className="social-icons">
                     <a
-                      href="https://github.com/Abdelalib"
+                      href="https://github.com/Abdelali-Benajaji"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -98,7 +98,7 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://www.linkedin.com/m/profile/in/abdelali-benajaji-803b9a225"
+                      href="https://www.linkedin.com/in/abdelali-benajaji/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
