@@ -63,7 +63,7 @@ const About = () => {
               </Col>
               <Col md={4} className="myAvtar">
                 <Tilt>
-                  <img src={LaptopImg} className="img-fluid" alt="avatar" />
+                  <img src={LaptopImg} className="img-fluid" alt="Abdelali Benajaji" />
                 </Tilt>
               </Col>
             </Row>

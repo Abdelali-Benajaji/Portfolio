@@ -19,7 +19,7 @@ const Footer = () => {
           </Col>
           <Col md="4" className="footer-copywright">
             <span>Copyright © {year}</span>
-            <img src={logo} className="img-fluid logo" alt="brand" />
+            <img src={logo} className="img-fluid logo" alt="Abdelali Benajaji" />
           </Col>
           <Col md="4" className="footer-body">
             <ul className="footer-icons">
