@@ -2,27 +2,27 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
-  DiReact,
   DiLaravel,
   DiGit,
+  DiReact,
 } from "react-icons/di";
 import {
-  SiBootstrap,
+  SiNextdotjs,
+  SiTailwindcss,
   SiMysql,
   SiPython,
   SiPhp,
-  SiMongodb,
-  SiHtml5
+  SiBootstrap,
 } from "react-icons/si";
 
 const Techstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 />
+        <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiLaravel />
@@ -31,16 +31,16 @@ const Techstack = () => {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPhp/>
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMongodb />
+        <SiPhp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiBootstrap />
@@ -50,6 +50,6 @@ const Techstack = () => {
       </Col>
     </Row>
   );
-}
+};
 
 export default Techstack;
